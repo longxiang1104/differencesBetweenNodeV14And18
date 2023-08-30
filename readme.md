@@ -19,14 +19,14 @@ async function run() {
 }
 
 run();
-
-## 4. 更強的安全性
+```
+### 4. 更強的安全性
 Node.js 16 強化了其內建的安全機制，提供了更多的安全選項和設置。
 
 
-# Node.js 17 主要更新
+## Node.js 17 主要更新
 
-## 1. Promises & Timers
+### 1. Promises & Timers
 Node.js 17 提供了與 Promises 相關的 timers，例如 `setTimeout`, `setInterval`, 和 `setImmediate`。
 
 
@@ -39,7 +39,7 @@ async function example() {
 }
 
 example();
-
+```
 
 ### 2. 新的 Error 類型
 此版本引入了 AbortError，它是一個特殊的錯誤類型，通常與 AbortController 一起使用。
@@ -57,29 +57,22 @@ doSomethingAsync({ signal }).catch(e => {
     cleanup();
   }
 });
+```
 
 
 
+## Node.js 18 重大更新
 
-
-
-
-
-### Node.js 18
-
-``markdown
-
-# Node.js 18 重大更新
-
-## 1. V8 引擎的新Array方法
+### 1. V8 引擎的新Array方法
 
 ```javascript
 let numbers = [1, 2, 3, 4, 5, 3];
 
 let lastThree = numbers.findLast(num => num === 3); 
 let lastThreeIndex = numbers.findLastIndex(num => num === 3); 
-2. 內置測試運行器
-
+```
+### 2. 內置測試運行器
+```javascript
 import assert from "assert";
 import test from "node:test";
 
@@ -87,8 +80,10 @@ test("Concatenate user's full name", (t) => {
   const user = new User("John", "Doe");
   assert.strictEqual(user.fullName(), "John Doe");
 });
-3. 新的 fetch API
+```
+### 3. 新的 fetch API
 
+```javascript
 const data = {
   nameFirst: "John",
   nameLast: "Doe",
@@ -105,5 +100,5 @@ try {
 } catch (error) {
   console.error(error);
 }
-
+```
 # 其他更新功能
