@@ -2,7 +2,12 @@ const http = require('node:http');
 const express = require('express')
 const hostname = '127.0.0.1';
 const port = 3000;
-const testFUN =require('./testfunction')
+const app = express()
+
+const node16 = require('./node16')
+
+app.get('/node16', node16.settimeout)
+
 
 
 
