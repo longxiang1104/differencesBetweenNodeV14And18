@@ -1,0 +1,24 @@
+{
+  "name": "differencesbetweennodev14and18",
+  "version": "1.0.0",
+  "description": "Node.js 16 使 V8 引擎升級到了 9.0 版本，這意味著更好的性能以及新的 JavaScript 語言特性。",
+  "main": "node14.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longxiang1104/differencesBetweenNodeV14And18.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longxiang1104/differencesBetweenNodeV14And18/issues"
+  },
+  "homepage": "https://github.com/longxiang1104/differencesBetweenNodeV14And18#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
