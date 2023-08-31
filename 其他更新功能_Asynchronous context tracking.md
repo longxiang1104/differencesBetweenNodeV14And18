@@ -1,10 +1,7 @@
 # new AsyncLocalStorage()#
-Version	Changes
-v18.16.0	
-Removed experimental onPropagate option.
+v18.16.0刪除了實驗性的 onPropagate 選項。
 
-v18.13.0	
-Add option onPropagate.
+v18.13.0添加傳播選項。
 
 # 靜態方法：AsyncLocalStorage.bind(fn)#
 添加於：v18.16.0

@@ -1,12 +1,6 @@
 
-
 # tracker.getCalls(fn)#
-## Added in: v18.8.0
-Returns: <Array> with all the calls to a tracked function.
- Object <Object>
- thisArg <Object>
- arguments <Array> the arguments passed to the tracked function
- 
+Added in: v18.8.
 ```javascript
 
 fn < Function >.
@@ -25,7 +19,7 @@ fn < Function >.
 ```
 
 # tracker.reset([fn])#
-## Added in: v18.8.0
+Added in: v18.8.0
 ```javascript
 
           fn <Function> a tracked function to reset.
@@ -47,7 +41,6 @@ fn < Function >.
 ```
 
 # assert.deepEqual(actual, expected[, message])
-版本	變化
 v18.0.0	
 現在也比較正則表達式的lastIndex屬性。
 
@@ -62,7 +55,7 @@ v14.0.0
 
 
 # assert.deepStrictEqual(actual, expected[, message])#
-版本	變化
+
 v18.0.0	
 現在也比較正則表達式的lastIndex屬性。
 
