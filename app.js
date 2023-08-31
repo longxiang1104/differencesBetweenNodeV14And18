@@ -4,14 +4,11 @@ const hostname = '127.0.0.1';
 const port = 3000;
 const app = express()
 
-const node16 = require('./node16')
 
-app.get('/node16', node16.settimeout)
-
+//這裡可以貼上內容測試
 
 
-
-
+//log出來看看
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
