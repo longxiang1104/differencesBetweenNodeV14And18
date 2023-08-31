@@ -1,1 +1,0 @@
-let copyX = json.parse(json.stringify(x))
