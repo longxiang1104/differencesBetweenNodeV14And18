@@ -41,25 +41,16 @@ Added in: v18.8.0
 ```
 
 # assert.deepEqual(actual, expected[, message])
-v18.0.0	
-現在也比較正則表達式的lastIndex屬性。
-
-v16.0.0、v14.18.0	
-在舊版斷言模式下，狀態從“已棄用”更改為“舊版”。
-
-v14.0.0	
-如果兩邊都是 NaN，NaN 現在被視為相同。
-
+v18.0.0	現在也比較正則表達式的lastIndex屬性。
+v16.0.0、v14.18.0	在舊版斷言模式下，狀態從“已棄用”更改為“舊版”。
+v14.0.0	如果兩邊都是 NaN，NaN 現在被視為相同。
 
 嚴格斷言模式的別名assert.deepStrictEqual()。
 
-
 # assert.deepStrictEqual(actual, expected[, message])#
 
-v18.0.0	
-現在也比較正則表達式的lastIndex屬性。
+v18.0.0	現在也比較正則表達式的lastIndex屬性。
 
-v9.0.0	
-現在比較可枚舉符號屬性。
+v9.0.0	現在比較可枚舉符號屬性。
 
 
